@@ -998,12 +998,13 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
+  font-style: italic;
   color: #cda45e;
 }
 
 .menu .menu-ingredients {
   margin-left: 85px;
-  font-style: italic;
+  
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
@@ -1767,6 +1768,10 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.mg-5 {
+  margin-top: 5em;
 }
 
 /*#Enero2{
