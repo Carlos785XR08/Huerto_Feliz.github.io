@@ -197,6 +197,13 @@
 
   });
 
+ /**
+   * Initiate glightbox 
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+
   /**
    * Tips slider
    */
