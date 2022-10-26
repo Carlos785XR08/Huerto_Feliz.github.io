@@ -1015,6 +1015,7 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  background-color:  #1a1814;
 }
 
 .specials .nav-tabs {
