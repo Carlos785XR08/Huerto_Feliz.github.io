@@ -167,29 +167,29 @@
   }
 
   /**
-   * Menu isotope and filter
+   * sembrarMes isotope and filter
    */
   window.addEventListener('load', () => {
-    let menuContainer = select('.menu-container');
-    if (menuContainer) {
-      let menuIsotope = new Isotope(menuContainer, {
-        itemSelector: '.menu-item',
+    let sembrarMesContainer = select('.sembrarMes-container');
+    if (sembrarMesContainer) {
+      let sembrarMesIsotope = new Isotope(sembrarMesContainer, {
+        itemSelector: '.sembrarMes-item',
         layoutMode: 'fitRows'
       });
 
-      let menuFilters = select('#menu-flters li', true);
+      let sembrarMesFilters = select('#sembrarMes-flters li', true);
 
-      on('click', '#menu-flters li', function(e) {
+      on('click', '#sembrarMes-flters li', function(e) {
         e.preventDefault();
-        menuFilters.forEach(function(el) {
+        sembrarMesFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        menuIsotope.arrange({
+        sembrarMesIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        menuIsotope.on('arrangeComplete', function() {
+        sembrarMesIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -198,34 +198,9 @@
   });
 
   /**
-   * Initiate glightbox 
+   * Tips slider
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-  /**
-   * Events slider
-   */
-  new Swiper('.events-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.tips-slider', {
     speed: 600,
     loop: true,
     autoplay: {

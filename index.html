@@ -33,32 +33,30 @@
 </head>
 
 <body>
- 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-
       <!-- Logo -->
       <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/favicon.png" alt="" class="img-fluid"></a>
       <!--Nombre-->
       <h1 class="logo me-auto me-lg-0"><a href="index.html">Huerto Feliz</a></h1>
-
       <!--Menú-->
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Conócenos</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Qué sembrar en cada mes</a></li>
+          <li><a class="nav-link scrollto" href="#sembrarMes">Qué sembrar en cada mes</a></li>
           <li><a class="nav-link scrollto" href="#crearHuerto">Como crear un huerto urbano</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Tips de cultivo</a></li>
+          <li><a class="nav-link scrollto" href="#tips">Tips de cultivo</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- Fin Header -->
 
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Sección Hero  ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
@@ -66,21 +64,21 @@
           <h1>Bienvenido a <span>Huerto Feliz</span></h1>
           <h2>La mejor información de huertos urbanos en la web</h2>
         </div>
+        <!--Video-->
         <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
           data-aos-delay="200">
           <a href="https://www.youtube.com/watch?v=n7mdTPshbgM" class="glightbox play-btn"></a>
         </div>
-
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- Fin Hero -->
 
+  <!-- Inicio Contenido de la página-->
   <main id="main">
-
-    <!-- ======= Conocénos Section ======= -->
+    <!-- ======= Sección Conocénos ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
@@ -105,22 +103,21 @@
             </p>
           </div>
         </div>
-
       </div>
-    </section><!-- End Conocénos Section -->
+    </section>
+    <!-- Fin Conocénos -->
 
-    <!-- ======= Qué sembrar en cada mes Section ======= -->
-    <section id="menu" class="menu section-bg">
+    <!-- ======= Sección Qué sembrar en cada mes ======= -->
+    <section id="sembrarMes" class="sembrarMes section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Qué sembrar en cada mes</h2>
           <p>Checa las siguientes opciones</p>
         </div>
-
+        <!-- Meses para sembrar-->
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="menu-flters">
+            <ul id="sembrarMes-flters">
               <!--<li data-filter="*" class="sembrar_enero">ENERO</li>-->
               <li data-filter=".sembrar_enero">ENERO</li>
               <li data-filter=".sembrar_febrero">FEBRERO</li>
@@ -140,412 +137,475 @@
         </div>
 
         <!--Carrusel de opciones-->
-        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row sembrarMes-container" data-aos="fade-up" data-aos-delay="200">
           <!--Enero-->
-          <div class="col-lg-6 menu-item sembrar_enero">
-            <img src="assets/img/sembrar/lechuga5.jpg" class="menu-img" alt="lechuga">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_enero">
+            <img src="assets/img/sembrar/lechuga5.jpg" class="sembrarMes-img" alt="lechuga">
+            <div class="sembrarMes-content">
               <a href="#">Lechuga</a><span>Lactuca sativa L.</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               La lechuga es la hortaliza más importante del grupo de los vegetales de hoja que se comen crudos.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_enero">
-            <img src="assets/img/sembrar/Espinaca.jpg" class="menu-img" alt="espinaca">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_enero">
+            <img src="assets/img/sembrar/Espinaca.jpg" class="sembrarMes-img" alt="espinaca">
+            <div class="sembrarMes-content">
               <a href="#">Espinaca</a><span>Spinacia oleracea</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El origen de la espinaca (Spinacia oleracea) se centra en el sudoeste asiático.
             </div>
           </div>
-
           <!--Febrero-->
-          <div class="col-lg-6 menu-item sembrar_febrero">
-            <img src="assets/img/sembrar/Tomate.webp" class="menu-img" alt="tomate">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_febrero">
+            <img src="assets/img/sembrar/Tomate.webp" class="sembrarMes-img" alt="tomate">
+            <div class="sembrarMes-content">
               <a href="Febrero1">Tomate</a><span>Physalis ixocarpa</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Tomate de cáscara también conocido como tomatillo o tomate verde.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_febrero">
-            <img src="assets/img/sembrar/Remolacha.jpg" class="menu-img" alt="remolacha/betabel">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_febrero">
+            <img src="assets/img/sembrar/Remolacha.jpg" class="sembrarMes-img" alt="remolacha/betabel">
+            <div class="sembrarMes-content">
               <a href="Febrero2">Remolacha/betabel</a><span>Beta vulgaris L.</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               La remolacha, o betabel, es un cultivo de temporada fría y crece bien en las temperaturas frías de la
               primavera y el otoño.
             </div>
           </div>
-
           <!--Marzo-->
-          <div class="col-lg-6 menu-item sembrar_marzo">
-            <img src="assets/img/sembrar/Cilantro.jpg" class="menu-img" alt="cilantro">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_marzo">
+            <img src="assets/img/sembrar/Cilantro.jpg" class="sembrarMes-img" alt="cilantro">
+            <div class="sembrarMes-content">
               <a href="Marzo1">Cilantro</a><span>Coriandrum sativum</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Es una planta aromática anual de alto consumo mundial de la familia Apiaceae, que alcanza entre 30 y 70 cm
               de altura.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_marzo">
-            <img src="assets/img/sembrar/Apio.jpg" class="menu-img" alt="apio">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_marzo">
+            <img src="assets/img/sembrar/Apio.jpg" class="sembrarMes-img" alt="apio">
+            <div class="sembrarMes-content">
               <a href="Marzo2">Apio</a><span>Apium graveolens</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El apio (Apium graveolens) es una planta herbácea de la familia Umbelliferae.
             </div>
           </div>
-
           <!--Abril-->
-          <div class="col-lg-6 menu-item sembrar_abril">
-            <img src="assets/img/sembrar/Rabanos.jpg" class="menu-img" alt="rabano">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_abril">
+            <img src="assets/img/sembrar/Rabanos.jpg" class="sembrarMes-img" alt="rabano">
+            <div class="sembrarMes-content">
               <a href="Abril1">Rabano</a><span>Raphanus sativus</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Contiene alto contenido en agua, su principal componente son los hidratos de carbono y la fibra, contiene
               vitamina C y folatos.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_abril">
-            <img src="assets/img/sembrar/Kale.jpg" class="menu-img" alt="kale">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_abril">
+            <img src="assets/img/sembrar/Kale.jpg" class="sembrarMes-img" alt="kale">
+            <div class="sembrarMes-content">
               <a href="Abril2">Kale</a><span>Brassica oleracea var. Sabellica</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Es una berza o col rizada similar a otras coles y por tanto de la misma familia que coles.
             </div>
           </div>
-
           <!--Mayo-->
-          <div class="col-lg-6 menu-item sembrar_mayo">
-            <img src="assets/img/sembrar/Haba.jpg" class="menu-img" alt="haba">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_mayo">
+            <img src="assets/img/sembrar/Haba.jpg" class="sembrarMes-img" alt="haba">
+            <div class="sembrarMes-content">
               <a href="Mayo1">Haba</a><span>Vicia faba</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Son originarias como cultivo del Oriente Próximo, extendiéndose pronto por toda la cuenca mediterránea.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_mayo">
-            <img src="assets/img/sembrar/Brocoli.webp" class="menu-img" alt="brócoli">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_mayo">
+            <img src="assets/img/sembrar/Brocoli.webp" class="sembrarMes-img" alt="brócoli">
+            <div class="sembrarMes-content">
               <a href="Mayo2">Brócoli</a><span>Brassica oleracea var. italica</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Esta verdura posee abundantes cabezas florales ("flores") carnosas comestibles de color verde.
             </div>
           </div>
-
           <!--Junio-->
-          <div class="col-lg-6 menu-item sembrar_junio">
-            <img src="assets/img/sembrar/berenjenas.jpg" class="menu-img" alt="berenjenas">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_junio">
+            <img src="assets/img/sembrar/berenjenas.jpg" class="sembrarMes-img" alt="berenjenas">
+            <div class="sembrarMes-content">
               <a href="Junio">Berenjenas</a><span>Solanum melongena</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               La berenjena es una planta plurianual, cultivada como anual.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_junio">
-            <img src="assets/img/sembrar/Brocoli.webp" class="menu-img" alt="Calabaza">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_junio">
+            <img src="assets/img/sembrar/Brocoli.webp" class="sembrarMes-img" alt="Calabaza">
+            <div class="sembrarMes-content">
               <a href="#">Calabaza</a><span>Cucúrbita</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               La calabaza común (Cucúrbita máxima), es una hortaliza anual, rica en vitaminas (A, B, C y D) y minerales
               (potasio, calcio, hierro...).
             </div>
           </div>
-
           <!--Julio-->
-          <div class="col-lg-6 menu-item sembrar_julio">
-            <img src="assets/img/sembrar/Nabo.jpg" class="menu-img" alt="nabo">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_julio">
+            <img src="assets/img/sembrar/Nabo.jpg" class="sembrarMes-img" alt="nabo">
+            <div class="sembrarMes-content">
               <a href="#">Nabo</a><span>Brassica rapa subsp. rapa</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Es una planta comestible cultivada principalmente en climas templados de todo el planeta.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_julio">
-            <img src="assets/img/sembrar/col.jpg" class="menu-img" alt="Col">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_julio">
+            <img src="assets/img/sembrar/col.jpg" class="sembrarMes-img" alt="Col">
+            <div class="sembrarMes-content">
               <a href="#">Col</a><span>Brassica oleracea var. capitata</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Las Coles o Repollos necesitan suelos bien drenados y húmedos.
             </div>
           </div>
-
           <!--Agosto-->
-          <div class="col-lg-6 menu-item sembrar_agosto">
-            <img src="assets/img/sembrar/pimiento.jpg" class="menu-img" alt="pimiento">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_agosto">
+            <img src="assets/img/sembrar/pimiento.jpg" class="sembrarMes-img" alt="pimiento">
+            <div class="sembrarMes-content">
               <a href="#">Pimiento</a><span>Capsicum annuum</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Es una planta herbácea, perenne, con ciclo de cultivo anual de porte variable entre los 0,5m. (en
               determinadas variedades de cultivo al aire libre) y más de 2m.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_agosto">
-            <img src="assets/img/sembrar/Cebolla.jpg" class="menu-img" alt="cebolla">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_agosto">
+            <img src="assets/img/sembrar/Cebolla.jpg" class="sembrarMes-img" alt="cebolla">
+            <div class="sembrarMes-content">
               <a href="#">Cebolla</a><span>Allium cepa</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El origen primario de la cebolla se localiza en Asia central, y como centro secundario el Mediterráneo,
               pues se trata de una de las hortalizas de consumo más antigua.
             </div>
           </div>
-
           <!--Septiembre-->
-          <div class="col-lg-6 menu-item sembrar_septiembre">
-            <img src="assets/img/sembrar/Arugula.jpg" class="menu-img" alt="arugula">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_septiembre">
+            <img src="assets/img/sembrar/Arugula.jpg" class="sembrarMes-img" alt="arugula">
+            <div class="sembrarMes-content">
               <a href="#">Arugula</a><span>Eruca vesicaria</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               La arúgula consiste de hojas verdes de color vibrante con tallos claros de color verde crema.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_septiembre">
-            <img src="assets/img/sembrar/perejil.webp" class="menu-img" alt="perejil">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_septiembre">
+            <img src="assets/img/sembrar/perejil.webp" class="sembrarMes-img" alt="perejil">
+            <div class="sembrarMes-content">
               <a href="#">Perejil</a><span>Petroselinum crispum</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El perejil es una planta originaria de la zona mediterránea, una umbelífera bianual que se cultiva por sus
               hojas.
             </div>
           </div>
-
           <!--Octubre-->
-          <div class="col-lg-6 menu-item sembrar_octubre">
-            <img src="assets/img/sembrar/guisante chicharo.webp" class="menu-img" alt="guisante">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_octubre">
+            <img src="assets/img/sembrar/guisante chicharo.webp" class="sembrarMes-img" alt="guisante">
+            <div class="sembrarMes-content">
               <a href="#">Guisante</a><span>Pisum sativum</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El guisante, arveja o chícharo (Pisum sativum) es la pequeña semilla comestible de la planta que se
               cultiva para su producción.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_octubre">
-            <img src="assets/img/sembrar/alcachofa.jpg" class="menu-img" alt="alcachofa">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_octubre">
+            <img src="assets/img/sembrar/alcachofa.jpg" class="sembrarMes-img" alt="alcachofa">
+            <div class="sembrarMes-content">
               <a href="#">Alcachofa</a><span>Cynara cardunculus var. scolymus</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               La planta de la alcachofa (Cynara scolymus L.) se distingue por sus carnosas inflorescencias comestibles
               de gran sabor.
             </div>
           </div>
-
           <!--Noviembre-->
-          <div class="col-lg-6 menu-item sembrar_noviembre">
-            <img src="assets/img/sembrar/Ajo.webp" class="menu-img" alt="ajo">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_noviembre">
+            <img src="assets/img/sembrar/Ajo.webp" class="sembrarMes-img" alt="ajo">
+            <div class="sembrarMes-content">
               <a href="#">Ajo</a><span>Allium sativum</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El ajo, procedente del centro y sur de Asia.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_noviembre">
-            <img src="assets/img/sembrar/puerros.jpeg" class="menu-img" alt="puerros">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_noviembre">
+            <img src="assets/img/sembrar/puerros.jpeg" class="sembrarMes-img" alt="puerros">
+            <div class="sembrarMes-content">
               <a href="#">Puerros</a><span>Allium porrum</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               El puerro es una planta de la familia de las liliáceas, como el ajo o la cebolla.
             </div>
           </div>
-
           <!--Diciembre-->
-          <div class="col-lg-6 menu-item sembrar_diciembre">
-            <img src="assets/img/sembrar/Acelga.jpg" class="menu-img" alt="acelga">
-            <div class="menu-content">
-              <a href="#">Acelga</a><span>Beta vulgaris var. Cicla</span>
+          <div class="col-lg-6 sembrarMes-item sembrar_diciembre">
+            <img src="assets/img/sembrar/Acelga.jpg" class="sembrarMes-img" alt="acelga" data-bs-toggle="modal" data-bs-target="#dic_acelga">
+            <div class="sembrarMes-content">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#dic_acelga">Acelga</a><span>Beta vulgaris var. Cicla</span>
             </div>
-            <div class="menu-ingredients">
+            <div class="sembrarMes-ingredients">
               Los primeros informes que se tienen de esta hortaliza la ubican en la región del Mediterráneo y en las
               Islas Canarias.
             </div>
           </div>
-
-          <div class="col-lg-6 menu-item sembrar_diciembre">
-            <img src="assets/img/sembrar/zanahoria.jpg" class="menu-img" alt="zanahoria" data-bs-toggle="modal" data-bs-target="#dic_zanahoria">
-            <div class="menu-content">
+          <div class="col-lg-6 sembrarMes-item sembrar_diciembre">
+            <img src="assets/img/sembrar/zanahoria.jpg" class="sembrarMes-img" alt="zanahoria" data-bs-toggle="modal" data-bs-target="#dic_zanahoria">
+            <div class="sembrarMes-content">
               <a href="#" data-bs-toggle="modal" data-bs-target="#dic_zanahoria">Zanahoria</a><span>Daucus carota</span>
             </div>
-            <div class="menu-ingredients">
-              la zanahoria (Daucus carota, subespecie sativus) es una hortaliza perteneciente a la familia Apiaceae.
+            <div class="sembrarMes-ingredients">
+              La zanahoria (Daucus carota, subespecie sativus) es una hortaliza perteneciente a la familia Apiaceae.
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Qué sembrar en cada mes Section -->
+    </section>
+    <!-- Fin Qué sembrar en cada mes-->
 
-
-  <!-- ======= Ficha Section ======= -->
-<!--Inicio de Modal-->
-<div class="modal fade" id="dic_zanahoria" tabindex="-1">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content specials">
-      <div class="modal-header ">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Enero</h2>
-            <p>Zanahoria</p>
+  <!-- ======= Ficha Modal Cada Mes ======= -->
+  <!-- Diciembre-Acelga -->
+  <div class="modal fade" id="dic_acelga" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content cssModal">
+        <div class="modal-header ">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Diciembre</h2>
+              <p>Acelga</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="modal-body">
-        <div class="container" data-aos="fade-up">
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-3">
-              <ul class="nav nav-tabs flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Descripción</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Suelo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Temperatura</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Siembra</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Riego</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-9 mt-4 mt-lg-0">
-              <div class="tab-content">
-                <div class="tab-pane active show" id="tab-1">
-                  <div class="row">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Architecto ut aperiam autem id</h3>
-                      <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                      <p> 1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit nulla ducimus voluptate enim nam veritatis, libero esse aperiam amet tenetur eos rerum accusantium dolorem maiores nisi earum ratione odit voluptas.</p>
-                    </div>
-                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                      <img src="assets/img/sembrar/verduras.png" alt="" class="img-fluid">
+        <div class="modal-body">
+          <div class="container" data-aos="fade-up">
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-3">
+                <ul class="nav nav-tabs flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Descripción</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Suelo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Temperatura</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Siembra</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Riego</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-9 mt-4 mt-lg-0">
+                <div class="tab-content">
+                  <div class="tab-pane active show" id="tab-1">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3 class="cursiva">Beta vulgaris var. Cicla</h3>
+                        <p class="justificado">Los primeros informes que se tienen de esta hortaliza la ubican en la región del Mediterráneo y en las Islas Canarias (Vavilov, 1951). Aristóteles hace mención de la acelga en el siglo IV a.C.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/Acelga.jpg" alt="acelga" class="img-fluid">
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="tab-pane" id="tab-2">
-                  <div class="row">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Et blanditiis nemo veritatis excepturi</h3>
-                      <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                      <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                    </div>
-                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                      <img src="assets/img/sembrar/verduras.png" alt="" class="img-fluid">
+                  <div class="tab-pane" id="tab-2">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">La acelga necesita suelos de consistencia media; vegeta mejor cuando la textura tiende a arcillosa que cuando es arenosa. Requiere suelos profundos, permeables, con gran poder de absorción y ricos en materia orgánica en estado de humificación.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/Acelga.jpg" alt="acelga" class="img-fluid">
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="tab-pane" id="tab-3">
-                  <div class="row">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                      <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                      <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                    </div>
-                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                      <img src="assets/img/sembrar/verduras.png" alt="" class="img-fluid">
+                  <div class="tab-pane" id="tab-3">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">La acelga es una planta de clima templado, que vegeta bien con temperaturas medias; le perjudica bastante los cambios bruscos de temperatura. Las variaciones bruscas de temperatura, cuando las bajas siguen a las elevadas, pueden hacer que se inicie el segundo periodo de desarrollo, subiéndose a flor la planta. La planta se hiela cuando las temperaturas son menores de -5ºC y detiene su desarrollo cuando las temperaturas bajan de 5ºC. En el desarrollo vegetativo las temperaturas están comprendidas entre un mínimo de 6ºC y un máximo de 27 a 33º C, con un medio óptimo entre 15 y 25º C. Las temperaturas de germinación están entre 5ºC de mínima y 30 a 35ºC de máxima, con un óptimo entre 18 y 22ºC.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/Acelga.jpg" alt="acelga" class="img-fluid">
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="tab-pane" id="tab-4">
-                  <div class="row">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                      <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                      <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                    </div>
-                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                      <img src="assets/img/sembrar/verduras.png" alt="" class="img-fluid">
+                  <div class="tab-pane" id="tab-4">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">En la acelga se utiliza normalmente la siembra directa, colocando de 2 a 3 semillas por golpe, distantes 0,35 cm sobre líneas espaciadas de 0,4 a 0,5 m, ya sea en surco sencillo o doble.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/Acelga.jpg" alt="acelga" class="img-fluid">
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="tab-pane" id="tab-5">
-                  <div class="row">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                      <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                      <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                    </div>
-                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                      <img src="assets/img/sembrar/verduras.png" alt="" class="img-fluid">
+                  <div class="tab-pane" id="tab-5">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">La acelga es un cultivo que debido a su gran masa foliar necesita en todo momento mantener en el suelo un estado óptimo de humedad. Para obtener una hortaliza de buena calidad no conviene que la planta acuse síntomas de deshidratación, durante las horas de mayor temperatura en el invierno, para evitar que los tejidos se embastezcan.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/Acelga.jpg" alt="acelga" class="img-fluid">
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-  
         </div>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- ======= Diciembre-Acelga ======= -->
+  <!-- Diciembre-Zanahoria -->
+  <div class="modal fade" id="dic_zanahoria" tabindex="-1">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content cssModal">
+        <div class="modal-header ">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Diciembre</h2>
+              <p>Zanahoria</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container" data-aos="fade-up">
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-3">
+                <ul class="nav nav-tabs flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Descripción</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Suelo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Temperatura</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Siembra</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Riego</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-9 mt-4 mt-lg-0">
+                <div class="tab-content">
+                  <div class="tab-pane active show" id="tab-1">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3 class="cursiva">Lactuca sativa L.</h3>
+                        <p class="justificado">La zanahoria (Daucus carota, subespecie sativus) es una hortaliza perteneciente a la familia Apiaceae. Originaria del Centro de Asía y del Mediterráneo, se ha convertido en uno de los vegetales más conocidos y consumidos a nivel mundial. En México se producen más de 331 mil toneladas de zanahoria al año</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/zanahoria.jpg" alt="zanahoria" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tab-2">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">Suelos arcillo-calizos, aireados, frescos, ricos en materia orgánica y con un pH entre 5.8 y 7 son óptimos para el cultivo. La zanahoria es un cultivo muy exigente de la fertilidad del suelo, por lo que no se recomienda repetir el cultivo por al menos 4 o 5 años. Los terrenos compactos y pesados pueden provocar raíces fibrosas, con menor peso y longitud; además de incrementar el riesgo de podredumbres. Por otra parte, suelos pedregosos originan raíces deformes o bifurcadas y suelos con un exceso de residuos orgánicos dan lugar a zanahorias corchosas.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/zanahoria.jpg" alt="zanahoria" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tab-3">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">La zanahoria es una planta rústica, aunque prefiere climas templados. La temperatura mínima de crecimiento está entorno a los 9°C y un óptimo de entre 16 y 18°C. El cultivo puede soportar heladas ligeras y en reposo las raíces no se ven afectadas hasta los -5°C; lo que permite su conservación en el terreno.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/zanahoria.jpg" alt="zanahoria" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tab-4">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">Se realiza prácticamente durante todo el año. Se puede realizar al voleo o en hilera doble, con surcos de 85 a 90 cm de ancho y 25 cm entre hileras. de podredumbres. Por otra parte, suelos pedregosos originan raíces deformes o bifurcadas y suelos con un exceso de residuos orgánicos dan lugar a zanahorias corchosas.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/zanahoria.jpg" alt="zanahoria" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tab-5">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <p class="justificado">Se debe regar todos los días hasta que las zanahorias tengan 4 hojitas. Incluso un día sin riego puede matar la semilla germinada. Las zanahorias pueden demorar hasta 21 días en germinar. Cuando las hojas de las zanahorias midan unos 8 cm.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="assets/img/sembrar/zanahoria.jpg" alt="zanahoria" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Diciembre-Zanahoria -->
+  <!-- Final Modal Ficha-->
 
-
-  <!-- ======= Crear huerto urbano Section ======= -->
-    <section id="crearHuerto" class="why-us">
+  <!-- ======= Sección Crear huerto urbano ======= -->
+    <section id="crearHuerto" class="crearHuerto">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Cómo crear un</h2>
           <p>Huerto Urbano</p>
           <span>Lo primero es planear nuestro huerto y después cumplir con las siguientes recomendaciones:</span>
         </div>
-
         <div class="row">
-
-          <div class="col-lg-4">
+          <!-- Paso 1 -->
+          <div class="col-lg-4  mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>Paso 1</span>
               <h4>Elegir el lugar donde colocar el huerto.</h4>
             </div>
           </div>
-
+          <!-- Paso 2 -->
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>Paso 2</span>
               <h4>Verificar que el suelo sea adecuado o por lo menos que no haya rocas grandes.</h4>
             </div>
           </div>
-
+          <!-- Paso 3 -->
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>Paso 3</span>
@@ -553,198 +613,172 @@
                 luz posible.</h4>
             </div>
           </div>
-
+          <!-- Paso 4 -->
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>Paso 4</span>
               <h4>El huerto debe estar junto a una cerca o algunos árboles para protegerlo de los vientos fuertes.</h4>
             </div>
           </div>
-
+          <!-- Paso 5 -->
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>Paso 5</span>
               <h4>Hay que cercarlo para impedir la presencia de animales silvestres y domésticos.</h4>
             </div>
           </div>
+           <!--Video-->
+          <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+            <a href="https://www.youtube.com/watch?v=kx-tGf3CcGg" class="glightbox play-btn"></a>
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- End Huerto urbano Section -->
+    <!-- Fin Huerto urbano -->
 
     <!-- ======= Tips Section ======= -->
-    <section id="chefs" class="chefs">
-
-  </section><!-- End Ficha Section -->
-<!--cambio de pruebas-->
-    <!-- ======= Crear huerto urbano Section ======= -->
-    <section id="events" class="events">
-
+    <section id="tips" class="tips">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Tips</h2>
           <p>Los mejor tips de cultivo</p>
+          <h3>Jazmín Santiago Galindo</h3>
+          <h4>Docente PILARES  &#8750;  Huertos Urbanos</h4>
         </div>
-
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <!--Tips ficha-->
+        <div class="tips-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Elige un área donde tus plantas tendrán luz natural.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso1.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Arranque las malezas, evitando así que se confundan con las nuevas plantas de hortalizas o hierbas.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso2.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   El suelo es uno de los recursos más valiosos de los seres vivos,por lo que es necesario cuidarlo, abonarlo y mantenerlo limpio de químicos tóxicos.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso3.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Conoce las hortalizas que cultivarás, existen algunas que resisten mejor la falta de luz solar como la espinaca, el apio, la col y los rábanos; y otras que prefieren el calor del sol, como los jitomates, tomates y pimientos.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso1.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Utiliza los residuos de plantas y verduras, así como otros residuos orgánicos para crear una composta que después podrás añadir al cultivo.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso2.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Riega las plantas por el atardecer para evitar la evaporación y favorecer la infiltración del agua en el sustrato.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso3.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Rota de lugar los cultivos que tengas de acuerdo a la temporada, así los nutrientes del suelo no se agotarán.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso1.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-            
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Considera el clima del lugar donde vives para que tengas mejores resultados.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso2.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Control de  insectos, con preparaciones orgánicas.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso3.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
-
+            </div><!-- End tips item -->
+            <!--Tips ficha-->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="tips-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   Utiliza recipientes reciclados, como cajas de madera para hortalizas medianas y recuerda que necesitan tener filtro en la base para que drenar.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Jazmín Santiago Galindo</h3>
-                <h4>Docente PILARES &amp; Huertos Urbanos</h4>
+                <img src="assets/img/tips/paso1.jpg" class="tips-img" alt="">
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End tips item -->
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
+        <!--Video-->
+        <div class="d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/watch?v=jcmBRjo0Q1A" class="glightbox play-btn"></a>
+        </div>
       </div>
-
-
-    </section><!-- End Tips Section -->
-
+    </section>
+    <!-- Fin Tips -->
 
     <!-- ======= Galeria Section ======= -->
     <section id="gallery" class="gallery">
-
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Galeria</h2>
           <p>Algunas fotos de nuestros huertos</p>
         </div>
       </div>
-
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row g-0">
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria1.jpeg" class="gallery-lightbox" data-gall="gallery-item">
@@ -752,7 +786,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria2.jpeg" class="gallery-lightbox" data-gall="gallery-item">
@@ -760,7 +794,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria3.jpeg" class="gallery-lightbox" data-gall="gallery-item">
@@ -768,7 +802,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria4.jpeg" class="gallery-lightbox" data-gall="gallery-item">
@@ -776,7 +810,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria5.jpg" class="gallery-lightbox" data-gall="gallery-item">
@@ -784,7 +818,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria6.jpg" class="gallery-lightbox" data-gall="gallery-item">
@@ -792,7 +826,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria7.jpg" class="gallery-lightbox" data-gall="gallery-item">
@@ -800,7 +834,7 @@
               </a>
             </div>
           </div>
-
+          <!--Foto ficha-->
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/galeria/galeria8.jpg" class="gallery-lightbox" data-gall="gallery-item">
@@ -808,13 +842,12 @@
               </a>
             </div>
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Galeria Section -->
-  </main><!-- End #main -->
-
+    </section>
+    <!-- Fin Galeria -->
+  </main>
+  <!-- End #main -->
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
@@ -822,12 +855,10 @@
         &copy; Copyright <strong><span>Huerto Feliz</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-
       </div>
     </div>
   </footer><!-- End Footer -->
 
-  <!--prueb-->
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -840,5 +871,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
