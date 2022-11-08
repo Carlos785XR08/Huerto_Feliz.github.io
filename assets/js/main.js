@@ -253,3 +253,15 @@
   });
 
 })()
+
+  /**
+   * Recetas slider
+   */
+   new Swiper('.recetas-slider', {
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });

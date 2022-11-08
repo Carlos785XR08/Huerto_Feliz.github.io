@@ -1046,7 +1046,7 @@ section {
 # TIPS
 --------------------------------------------------------------*/
 .tips {
-  background: url(../img/crear/crear.jpg) center center no-repeat;
+  background: url(../img/tips/tips.png) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1297,7 +1297,6 @@ section {
   border-right: 3px solid #454035;
   border-bottom: 3px solid #454035;
   height: 50%;
-  margin: 10px;
 }
 
 .gallery .gallery-item img {
@@ -1306,6 +1305,108 @@ section {
 
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Recetas
+--------------------------------------------------------------*/
+.recetas {
+  background: url(../img/recetas/cocinar.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.recetas::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.recetas .section-title h2 {
+  color: #fff;
+}
+
+.recetas .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .recetas {
+    background-attachment: fixed;
+  }
+}
+
+.recetas .recetas-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.recetas .recetas-item {
+  color: #fff;
+}
+
+.recetas .recetas-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #cda45e;
+}
+
+.recetas .recetas-item .ingredientesProceso {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.recetas .recetas-item .ingredientesProceso span {
+  border-bottom: 2px solid #cda45e;
+  font-size: 20px;
+}
+
+.recetas .recetas-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recetas .recetas-item ul li {
+  padding-bottom: 10px;
+}
+
+.recetas .recetas-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #cda45e;
+}
+
+.recetas .recetas-item p:last-child {
+  margin-bottom: 0;
+}
+
+.recetas .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+.recetas .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+
+.recetas .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda45e;
+}
+
+.imgReceta{
+  border-radius: 86px 10px 81px 10px;
+  -moz-border-radius: 86px 10px 81px 10px;
+  -webkit-border-radius: 86px 10px 81px 10px;
+  border: 3px groove #454035;
 }
 
 /*--------------------------------------------------------------
